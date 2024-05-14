@@ -1,0 +1,361 @@
+/* styles.css */
+
+body{
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.land-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(119, 1, 1), rgb(143, 2, 138));
+}
+
+.khal-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(126, 57, 0), rgb(43, 107, 0));
+}
+
+.runu-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, rgb(7, 54, 141), rgb(0, 7, 142));
+}
+
+.boro-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(47, 0, 112), rgb(125, 0, 73));
+}
+
+.go {
+  font-size: 10px;
+  margin-bottom: 10px;
+  color: #555555b3;
+}
+
+.ru {
+  color: #777;
+}
+
+.gone {
+  color: green;
+  text-decoration: none;
+}
+
+.link-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-container {
+  text-align: center;
+  border: solid 2px purple;
+  background: linear-gradient(to top, slateblue, purple);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.link {
+  width: 100px;
+  font-size: 16px;
+  padding: 8px 10px;
+  margin: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  color: white;
+}
+
+.hello{
+  margin-bottom: 20px;
+}
+
+.chosing{
+  margin-bottom: 10px;
+}
+
+.mamoni{
+  background: linear-gradient(to right, rgb(213, 7, 7), rgb(255, 0, 247));
+}
+
+.mamoni:hover{
+  background: linear-gradient(to right, rgb(119, 1, 1), rgb(143, 2, 138));
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.khalammi{
+  background: linear-gradient(to right, rgb(255, 115, 0), rgb(75, 187, 1));
+}
+
+.khalammi:hover{
+  background: linear-gradient(to right, rgb(126, 57, 0), rgb(43, 107, 0));
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.runu {
+  background: linear-gradient(to right, rgb(14, 98, 255), rgb(0, 13, 255));
+}
+
+.runu:hover {
+  background: linear-gradient(to right, rgb(7, 54, 141), rgb(0, 7, 142));
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.boro {
+  background: linear-gradient(to right, rgb(80, 0, 192), rgb(255, 0, 149));
+}
+
+.boro:hover {
+  background: linear-gradient(to right, rgb(47, 0, 112), rgb(125, 0, 73));
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.maco{
+  text-align: center;
+  border: solid 2px purple;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, rgb(213, 7, 7), rgb(255, 20, 247));
+  width: 300px;
+  margin: 30px 0;
+}
+
+.khaco{
+  text-align: center;
+  border: solid 2px purple;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, rgb(255, 115, 0), rgb(62, 155, 0));
+  width: 300px;
+  margin: 30px 0;
+}
+
+.ruco{
+  text-align: center;
+  border: solid 2px purple;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(to top, rgb(127, 85, 255), rgba(0, 13, 255, 0.662));
+  width: 300px;
+  margin: 30px 0;
+}
+
+.boco{
+  text-align: center;
+  border: solid 2px purple;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, rgb(80, 0, 192), rgb(255, 0, 149));
+  width: 300px;
+  margin: 30px 0;
+}
+
+.profile-pic{
+  border: solid 2px purple;
+  border-radius: 50%;
+}
+
+.profile-pic:hover{
+  border-radius: 15px;
+  transition: border-radius 0.8s;
+}
+
+.memorypic{
+  margin: 3px;
+  width: 138px;
+}
+
+.p1 {
+  border-radius: 20px 0 0 0;
+  border-top: solid 2px purple;
+  border-bottom: solid 2px transparent;
+  border-left: solid 2px purple;
+  border-right: solid 2px transparent;
+}
+
+.p1:hover {
+  transition: border-radius 1s, transform 1s, border 1s;
+  border: 2px solid purple;
+  border-radius: 20px;
+  transform: translateY(-5px);
+}
+
+.p2 {
+  border-radius: 0 20px 0 0 ;
+  border-top: solid 2px purple;
+  border-bottom: solid 2px transparent;
+  border-left: solid 2px transparent;
+  border-right: solid 2px purple;
+}
+
+.p2:hover {
+  transition: border-radius 1s, transform 1s, border 1s;
+  border: 2px solid purple;
+  border-radius: 20px;
+  transform: translateY(-5px);
+}
+
+.p4 {
+  border-radius: 0 0 20px 0 ;
+  border-top: solid 2px transparent;
+  border-bottom: solid 2px purple;
+  border-left: solid 2px transparent;
+  border-right: solid 2px purple;
+}
+
+.p4:hover {
+  transition: border-radius 1s, transform 1s, border 1s;
+  border: 2px solid purple;
+  border-radius: 20px;
+  transform: translateY(-5px);
+}
+
+.p3 {
+  border-radius: 0 0 0 20px;
+  border-top: solid 2px transparent;
+  border-bottom: solid 2px purple;
+  border-left: solid 2px purple;
+  border-right: solid 2px transparent;
+}
+
+.p3:hover {
+  transition: border-radius 1s, transform 1s, border 1s;
+  border: 2px solid purple;
+  border-radius: 20px;
+  transform: translateY(-5px);
+}
+ .uhum {
+  transition: border-radius 1s, border 1s;
+  border: 2px solid purple;
+  border-radius: 20px;
+ }
+
+hr {
+  margin: 10px 0 20px 0;
+  height: 2px;
+  background-color: purple;
+  border: none;
+  border-radius: 4px;
+}
+
+.gallery {
+  font-family: cursive, sans-serif;
+}
+
+.pro-nm:hover {
+  background: linear-gradient( to right, rgb(251, 188, 0), rgb(209, 143, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+  transform: translateY(-3px);
+  transition: transform 0.5s;
+}
+
+.pro-nk:hover {
+  background: linear-gradient( to right, rgb(251, 188, 0), rgb(209, 143, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.pro-nr:hover {
+  background: linear-gradient( to right, rgb(251, 188, 0), rgb(209, 143, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.pro-nb:hover {
+  background: linear-gradient( to right, rgb(251, 188, 0), rgb(209, 143, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+
+.rating {
+  background: linear-gradient( to right, rgb(251, 188, 0), rgb(209, 143, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.textw {
+  font-size: 11px;
+}
+
+.wish{
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 370px) {
+  .maco {
+    width: 220px;
+  }
+  .khaco {
+    width: 220px;
+  }
+  .ruco {
+    width: 220px;
+  }
+  .boco {
+    width: 220px;
+  }
+
+  .p1 {
+    border: 2px solid purple;
+    border-radius: 50%;
+  }
+  .p1:hover {
+    border-radius: 20px;
+  }
+  .p2 {
+    border: 2px solid purple;
+    border-radius: 50%;
+  }
+  .p2:hover {
+    border-radius: 20px;
+  }
+  .p3 {
+    border: 2px solid purple;
+    border-radius: 50%;
+  }
+  .p3:hover {
+    border-radius: 20px;
+  }
+  .p4 {
+    border: 2px solid purple;
+    border-radius: 50%;
+  }
+  .p4:hover {
+    border-radius: 20px;
+  }
+}
+```

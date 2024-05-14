@@ -1,0 +1,218 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    /* style.css */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.land-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to right, rgb(119, 1, 1), rgb(143, 2, 138));
+}
+
+.link-container {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-container {
+  text-align: center;
+  border: solid 2px purple;
+  background: linear-gradient(to top, slateblue, purple);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.link {
+  width: 100px;
+  font-size: 16px;
+  padding: 8px 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+.hello{
+  margin-bottom: 20px;
+}
+
+.chosing{
+  margin: 10px 0;
+}
+
+.mamoni{
+  background: linear-gradient(to right, rgb(213, 7, 7), rgb(255, 0, 247));
+}
+
+.mamoni:hover{
+  background: linear-gradient(to right, rgb(119, 1, 1), rgb(143, 2, 138));
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.khalammi{
+  background: linear-gradient(to right, rgb(255, 115, 0), rgb(75, 187, 1));
+}
+
+.khalammi:hover{
+  background: linear-gradient(to right, rgb(126, 57, 0), rgb(43, 107, 0));
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.runu {
+  background: linear-gradient(to right, rgb(14, 98, 255), rgb(0, 13, 255));
+}
+
+.runu:hover {
+  background: linear-gradient(to right, rgb(7, 54, 141), rgb(0, 7, 142));
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.boro {
+  background: linear-gradient(to right, rgb(80, 0, 192), rgb(255, 0, 149));
+}
+
+.boro:hover {
+  background: linear-gradient(to right, rgb(47, 0, 112), rgb(125, 0, 73));
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+}
+
+.maco{
+  text-align: center;
+  border: solid 2px purple;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(to top, rgb(213, 7, 7), rgb(255, 20, 247));
+  width: 300px;
+  margin: 30px 0;
+}
+
+.profile-pic{
+  border: solid 2px purple;
+  border-radius: 50%;
+}
+
+.memorypic{
+  margin: 3px;
+  width: 140px;
+}
+
+.p1 {
+  border-radius: 20px 0 0 20px;
+  border-top: solid 2px slateblue;
+  border-bottom: solid 2px slateblue;
+  border-left: solid 2px slateblue;
+  border-right: solid 2px transparent;
+}
+
+.p2 {
+  border-radius: 0 20px 20px 0 ;
+  border-top: solid 2px slateblue;
+  border-bottom: solid 2px slateblue;
+  border-left: solid 2px transparent;
+  border-right: solid 2px slateblue;
+}
+
+.p4 {
+  border-radius: 0 0 20px 0 ;
+  border-top: solid 2px transparent;
+  border-bottom: solid 2px purple;
+  border-left: solid 2px transparent;
+  border-right: solid 2px purple;
+}
+
+.p4:hover {
+  transition: border-radius 1s, transform 1s, border 1s;
+  border: 2px solid purple;
+  border-radius: 20px;
+  transform: translateY(-5px);
+}
+
+.p3 {
+  border-radius: 0 0 0 20px;
+  border-top: solid 2px transparent;
+  border-bottom: solid 2px purple;
+  border-left: solid 2px purple;
+  border-right: solid 2px transparent;
+}
+
+.rating {
+  background: linear-gradient( to right, rgb(251, 188, 0), rgb(255, 174, 0));
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.textw {
+  font-size: 11px;
+}
+
+.wish{
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 370px) {
+  body {
+    height: 100%;
+  }
+  
+  .small-container {
+    width: 250px;
+    margin: 40px 0;
+  }
+
+  .p1 {
+    border: 2px solid slateblue;
+    border-radius: 20px;
+  }
+
+  .p2 {
+    border: 2px solid slateblue;
+    border-radius: 20px;
+  }
+}
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+</head>
+  <body>
+    <div class="land-container">
+      <div class="small-container">
+        <h1 class="hello">Hello There!</h1>
+        <img src="images/group-1.jpg" alt="" class="memorypic p1">
+        <img src="images/group-2.jpg" alt="" class="memorypic p2">
+        <h3 class="chosing">Choose which one is you!</h3>
+        <button class="mamoni link" onclick="window.location.href = 'mamoni.html';">Mamoni</button>
+        <button class="khalammi link" onclick="window.location.href = 'khalammi.html';">Khalammi</button>
+        <br>
+        <button class="runu link"onclick="window.location.href = 'runu.html';">Runu Ma</button>
+        <button class="boro link"onclick="window.location.href = 'boro.html';">Boro Ma</button>
+      </div>
+    </div>
+  </body>
+</html>
